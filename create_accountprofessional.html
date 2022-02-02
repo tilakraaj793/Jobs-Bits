@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="layout.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.min.js"></script>
+
+    <title>Create An Account</title>
+</head>
+<body>
+  <section class="container">
+  <div class="logoc">
+    <div class="col50 centr">
+      <img src="images/logo.png" alt="">
+    </div>
+    <div class="col50 hidedv" style="text-align: right; font-size:20px; ">
+<p>Already register?<a  style="font-size:20px; display: inline;" href="index.html">Login here</a></p>
+    </div>
+</div>
+</section>
+
+<section class="per">
+  <h4>Personal Detail</h4>
+</section>
+
+<section class="create_a">
+    <div class="container">
+    
+    <div class="col100">
+    <div class="row">
+      <div class="col10">ad</div>
+        <div class="col80" style="padding: 40px 10px 0px 90px;" >
+            <form action="">
+                <div class="form-group">
+                    <label for="">Write your professional background :</label>
+                   <textarea class="form-control" name="professional" id="professional" cols="30" rows="10"></textarea>
+                    <label id="lblmessage2" class="redmention"></label>
+                  </div>
+                    <div class="form-group">
+                        <label for="">Select Work Location (Max 5)</label>
+                        <select class="form-control select2-multi" name="workloc" id="workloc" multiple="multiple">
+                            <option value="-"> </option>
+                            <option value="Bangalore ">  Bangalore/Bangaluru</option>
+                            <option value="Chandigarh">Chandigarh</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="pune">Pune</option>
+                            <option value="Mohali">Mohali</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Gurugram">Gurugram</option>
+                            <option value="Noida">Noida</option>
+                            <option value="Ahmedabad">Ahmedabad</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Delhi">Delhi</option>
+                        </select>
+                    
+<script>
+    $('.select2-multi').select2();
+</script>
+                    <label id="lblmessage2" class="redmention"></label>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="" style="font-size: 16px;">Select Your Job Type</label><br>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" class="custom-control-input" id="jobtype" name="jobtype" value="Permanent">
+                        <label class="custom-control-label" for="customRadio">Permanent</label>
+                      </div>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" class="custom-control-input" id="jobtype" name="jobtype" value="Contract">
+                        <label class="custom-control-label" for="customRadio">Contract</label>
+                      </div>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" class="custom-control-input" id="jobtype" name="jobtype" value="Both">
+                        <label class="custom-control-label" for="customRadio">Both</label>
+                      </div>
+                  </div>
+                  <input type="submit" class="btn" value="Submit">
+          
+        </form>
+        </div>
+        <div class="col10" >ad</div>
+        </div>
+    </div>
+  
+</div>
+</section>
+
+<section class="footer">
+  <p>All rights reserved © 2021</p>
+</section>
+
+</body>
+</html>
